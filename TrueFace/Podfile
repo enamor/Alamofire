@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+
+target ’TrueFace’ do
+use_frameworks!
+
+pod 'Alamofire', '~> 4.4'
+pod "SDWebImage"
+pod 'MJExtension'
+pod "FMDB"
+pod "SVProgressHUD"
+pod "pop"
+pod 'FLAnimatedImage', '~> 1.0'
+
+end
